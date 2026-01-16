@@ -1,0 +1,8 @@
+pyspark==3.5.0
+google-api-python-client==2.111.0
+pandas==2.2.0
+matplotlib==3.8.2
+seaborn==0.13.1
+textblob==0.17.1
+fpdf==1.7.2
+localstack-client # for potentially mocking s3/hdfs if needed, though we will use local fs
